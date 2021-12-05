@@ -28,7 +28,7 @@ const PostCard = ({ post }) => {
                  </span>
                 </div>
             </div>
-            <p className='px-4 mb-8 text-lg font-normal text-center text-gray-700 lg:px-20'>{post.excerp}</p>
+            <p className='px-4 mb-8 text-lg font-normal text-center text-gray-700 lg:px-20'>{post.excerpt}</p>
             <div className="text-center">
                 <Link href={`/post/${post.slug}`}>
                     <span className='inline-block px-8 py-3 text-lg font-medium text-white transition duration-500 transform bg-pink-600 rounded-full cursor-pointer hover:-translate-y-1'>
