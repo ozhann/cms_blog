@@ -1,10 +1,10 @@
-export { default as PostCard} from './PostCard.tsx'
-export { default as Categories} from './Categories.tsx'
-export { default as PostWidget} from './PostWidget.tsx'
-export { default as Header} from './Header.tsx'
-export { default as Layout} from './Layout.tsx'
-export { default as Author} from './Author.tsx'
-export { default as CommentsForm} from './CommentsForm.tsx'
-export { default as Comments} from './Comments.tsx'
-export { default as PostDetail} from './PostDetail.tsx'
-export { default as Loader} from './Loader.tsx'
+export { default as PostCard } from './PostCard.tsx';
+export { default as Categories } from './Categories.tsx';
+export { default as PostWidget } from './PostWidget.tsx';
+export { default as Header } from './Header.tsx';
+export { default as Layout } from './Layout.tsx';
+export { default as Author } from './Author.tsx';
+export { default as CommentsForm } from './CommentsForm.tsx';
+export { default as Comments } from './Comments.tsx';
+export { default as PostDetail } from './PostDetail.tsx';
+export { default as Loader } from './Loader.tsx';
