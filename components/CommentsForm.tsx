@@ -14,7 +14,7 @@ const CommentsForm = ({ slug }) => {
       email: window.localStorage.getItem('email'),
       storeData: window.localStorage.getItem('name') || window.localStorage.getItem('email'),
     };
-    setFormData(initalFormData);
+    setFormData(initalFormData as any);
   }, []);
 
   const onInputChange = (e) => {
