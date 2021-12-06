@@ -22,11 +22,11 @@ const PostDetail = ({ post }) => {
 
     switch (type) {
       case 'heading-three':
-        return <h3 key={index} className="mb-4 text-xl font-semibold">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h3>;
+        return <h3 key={index} className="mb-4 text-xl font-semibold">{<React.Fragment>{modifiedText}</React.Fragment>}</h3>;
       case 'paragraph':
-        return <p key={index} className="mb-8">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>;
+        return <p key={index} className="mb-8">{<React.Fragment>{modifiedText}</React.Fragment>}</p>;
       case 'heading-four':
-        return <h4 key={index} className="mb-4 font-semibold text-md">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
+        return <h4 key={index} className="mb-4 font-semibold text-md">{<React.Fragment>{modifiedText}</React.Fragment>}</h4>;
       case 'image':
         return (
           <img
